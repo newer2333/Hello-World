@@ -1,1 +1,17 @@
-language: java
+language: 
+  -cpp
+  
+os:
+  -windos
+
+complier:
+  g++
+
+sudo:
+  requird
+
+script:
+  - cd cmake
+  - rm -rf*
+  - cmake ..
+  - make all

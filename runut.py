@@ -1,1 +1,1 @@
-print 'boss'
+print ("boss")

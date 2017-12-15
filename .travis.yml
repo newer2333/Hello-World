@@ -1,17 +1,3 @@
-language: 
-  -cpp
-  
-os:
-  -windos
-
-complier:
-  g++
-
-sudo:
-  requird
-
-script:
-  - cd cmake
-  - rm -rf*
-  - cmake ..
-  - make all
+language: java
+jdk:
+  - oraclejdk8
